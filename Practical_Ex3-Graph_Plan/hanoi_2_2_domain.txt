@@ -1,0 +1,17 @@
+Propositions: d0_p0 d0_p1 d1_p0 d1_p1 N_d0_p0 N_d0_p1 N_d1_p0 N_d1_p1
+Name: Md0p0p1
+pre: d0_p0 N_d0_p1
+add: d0_p1 N_d0_p0
+delete: d0_p0 N_d0_p1
+Name: Md1p0p1
+pre: d1_p0 N_d1_p1 N_d0_p1
+add: d1_p1 N_d1_p0
+delete: d1_p0 N_d1_p1
+Name: Md0p1p0
+pre: d0_p1 N_d0_p0
+add: d0_p0 N_d0_p1
+delete: d0_p1 N_d0_p0
+Name: Md1p1p0
+pre: d1_p1 N_d1_p0 N_d0_p0
+add: d1_p0 N_d1_p1
+delete: d1_p1 N_d1_p0

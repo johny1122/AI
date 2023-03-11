@@ -1,0 +1,2 @@
+Initial state: available-d_0 available-p_1 available-p_2 on-d_0-d_1 on-d_1-d_2 on-d_2-p_0 smaller-d_0-d_1 smaller-d_0-d_2 smaller-d_0-p_0 smaller-d_0-p_1 smaller-d_0-p_2 smaller-d_1-d_2 smaller-d_1-p_0 smaller-d_1-p_1 smaller-d_1-p_2 smaller-d_2-p_0 smaller-d_2-p_1 smaller-d_2-p_2
+Goal state: available-d_0 available-p_0 available-p_1 on-d_0-d_1 on-d_1-d_2 on-d_2-p_2

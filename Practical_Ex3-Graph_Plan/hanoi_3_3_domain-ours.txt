@@ -1,0 +1,75 @@
+Propositions: 
+d0_p0 d0_p1 d0_p2 d1_p0 d1_p1 d1_p2 d2_p0 d2_p1 d2_p2 N_d0_p0 N_d0_p1 N_d0_p2 N_d1_p0 N_d1_p1 N_d1_p2 N_d2_p0 N_d2_p1 N_d2_p2
+Actions: 
+Name: Md0p0p1
+pre: d0_p0 N_d0_p1
+add: d0_p1 N_d0_p0
+delete: d0_p0 N_d0_p1
+Name: Md1p0p1
+pre: d1_p0 N_d1_p1 N_d0_p1
+add: d1_p1 N_d1_p0
+delete: d1_p0 N_d1_p1
+Name: Md2p0p1
+pre: d2_p0 N_d2_p1 N_d0_p1 N_d1_p1
+add: d2_p1 N_d2_p0
+delete: d2_p0 N_d2_p1
+Name: Md0p0p2
+pre: d0_p0 N_d0_p2
+add: d0_p2 N_d0_p0
+delete: d0_p0 N_d0_p2
+Name: Md1p0p2
+pre: d1_p0 N_d1_p2 N_d0_p2
+add: d1_p2 N_d1_p0
+delete: d1_p0 N_d1_p2
+Name: Md2p0p2
+pre: d2_p0 N_d2_p2 N_d0_p2 N_d1_p2
+add: d2_p2 N_d2_p0
+delete: d2_p0 N_d2_p2
+Name: Md0p1p0
+pre: d0_p1 N_d0_p0
+add: d0_p0 N_d0_p1
+delete: d0_p1 N_d0_p0
+Name: Md1p1p0
+pre: d1_p1 N_d1_p0 N_d0_p0
+add: d1_p0 N_d1_p1
+delete: d1_p1 N_d1_p0
+Name: Md2p1p0
+pre: d2_p1 N_d2_p0 N_d0_p0 N_d1_p0
+add: d2_p0 N_d2_p1
+delete: d2_p1 N_d2_p0
+Name: Md0p1p2
+pre: d0_p1 N_d0_p2
+add: d0_p2 N_d0_p1
+delete: d0_p1 N_d0_p2
+Name: Md1p1p2
+pre: d1_p1 N_d1_p2 N_d0_p2
+add: d1_p2 N_d1_p1
+delete: d1_p1 N_d1_p2
+Name: Md2p1p2
+pre: d2_p1 N_d2_p2 N_d0_p2 N_d1_p2
+add: d2_p2 N_d2_p1
+delete: d2_p1 N_d2_p2
+Name: Md0p2p0
+pre: d0_p2 N_d0_p0
+add: d0_p0 N_d0_p2
+delete: d0_p2 N_d0_p0
+Name: Md1p2p0
+pre: d1_p2 N_d1_p0 N_d0_p0
+add: d1_p0 N_d1_p2
+delete: d1_p2 N_d1_p0
+Name: Md2p2p0
+pre: d2_p2 N_d2_p0 N_d0_p0 N_d1_p0
+add: d2_p0 N_d2_p2
+delete: d2_p2 N_d2_p0
+Name: Md0p2p1
+pre: d0_p2 N_d0_p1
+add: d0_p1 N_d0_p2
+delete: d0_p2 N_d0_p1
+Name: Md1p2p1
+pre: d1_p2 N_d1_p1 N_d0_p1
+add: d1_p1 N_d1_p2
+delete: d1_p2 N_d1_p1
+Name: Md2p2p1
+pre: d2_p2 N_d2_p1 N_d0_p1 N_d1_p1
+add: d2_p1 N_d2_p2
+delete: d2_p2 N_d2_p1

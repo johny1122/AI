@@ -1,0 +1,155 @@
+Propositions:
+d0 d1 d2 p0 p1 p2 d0_on_d1 d0_on_d2 d1_on_d2 d0_on_p0 d0_on_p1 d0_on_p2 d1_on_p0 d1_on_p1 d1_on_p2 d2_on_p0 d2_on_p1 d2_on_p2 
+Actions:
+Name: MOVE_d0_from_p0_to_p1
+pre: d0 p1 d0_on_p0
+add: p0 d0_on_p1
+delete: p1 d0_on_p0
+Name: MOVE_d0_from_p0_to_p2
+pre: d0 p2 d0_on_p0
+add: p0 d0_on_p2
+delete: p2 d0_on_p0
+Name: MOVE_d0_from_p0_to_d1
+pre: d0 d1 d0_on_p0
+add: p0 d0_on_d1
+delete: d1 d0_on_p0
+Name: MOVE_d0_from_d1_to_p0
+pre: d0 p0 d0_on_d1
+add: d1 d0_on_p0
+delete: p0 d0_on_d1
+Name: MOVE_d0_from_p0_to_d2
+pre: d0 d2 d0_on_p0
+add: p0 d0_on_d2
+delete: d2 d0_on_p0
+Name: MOVE_d0_from_d2_to_p0
+pre: d0 p0 d0_on_d2
+add: d2 d0_on_p0
+delete: p0 d0_on_d2
+Name: MOVE_d0_from_p1_to_p0
+pre: d0 p0 d0_on_p1
+add: p1 d0_on_p0
+delete: p0 d0_on_p1
+Name: MOVE_d0_from_p1_to_p2
+pre: d0 p2 d0_on_p1
+add: p1 d0_on_p2
+delete: p2 d0_on_p1
+Name: MOVE_d0_from_p1_to_d1
+pre: d0 d1 d0_on_p1
+add: p1 d0_on_d1
+delete: d1 d0_on_p1
+Name: MOVE_d0_from_d1_to_p1
+pre: d0 p1 d0_on_d1
+add: d1 d0_on_p1
+delete: p1 d0_on_d1
+Name: MOVE_d0_from_p1_to_d2
+pre: d0 d2 d0_on_p1
+add: p1 d0_on_d2
+delete: d2 d0_on_p1
+Name: MOVE_d0_from_d2_to_p1
+pre: d0 p1 d0_on_d2
+add: d2 d0_on_p1
+delete: p1 d0_on_d2
+Name: MOVE_d0_from_p2_to_p0
+pre: d0 p0 d0_on_p2
+add: p2 d0_on_p0
+delete: p0 d0_on_p2
+Name: MOVE_d0_from_p2_to_p1
+pre: d0 p1 d0_on_p2
+add: p2 d0_on_p1
+delete: p1 d0_on_p2
+Name: MOVE_d0_from_p2_to_d1
+pre: d0 d1 d0_on_p2
+add: p2 d0_on_d1
+delete: d1 d0_on_p2
+Name: MOVE_d0_from_d1_to_p2
+pre: d0 p2 d0_on_d1
+add: d1 d0_on_p2
+delete: p2 d0_on_d1
+Name: MOVE_d0_from_p2_to_d2
+pre: d0 d2 d0_on_p2
+add: p2 d0_on_d2
+delete: d2 d0_on_p2
+Name: MOVE_d0_from_d2_to_p2
+pre: d0 p2 d0_on_d2
+add: d2 d0_on_p2
+delete: p2 d0_on_d2
+Name: MOVE_d0_from_d1_to_d2
+pre: d0 d2 d0_on_d1
+add: d1 d0_on_d2
+delete: d2 d0_on_d1
+Name: MOVE_d0_from_d2_to_d1
+pre: d0 d1 d0_on_d2
+add: d2 d0_on_d1
+delete: d1 d0_on_d2
+Name: MOVE_d1_from_p0_to_p1
+pre: d1 p1 d1_on_p0
+add: p0 d1_on_p1
+delete: p1 d1_on_p0
+Name: MOVE_d1_from_p0_to_p2
+pre: d1 p2 d1_on_p0
+add: p0 d1_on_p2
+delete: p2 d1_on_p0
+Name: MOVE_d1_from_p0_to_d2
+pre: d1 d2 d1_on_p0
+add: p0 d1_on_d2
+delete: d2 d1_on_p0
+Name: MOVE_d1_from_d2_to_p0
+pre: d1 p0 d1_on_d2
+add: d2 d1_on_p0
+delete: p0 d1_on_d2
+Name: MOVE_d1_from_p1_to_p0
+pre: d1 p0 d1_on_p1
+add: p1 d1_on_p0
+delete: p0 d1_on_p1
+Name: MOVE_d1_from_p1_to_p2
+pre: d1 p2 d1_on_p1
+add: p1 d1_on_p2
+delete: p2 d1_on_p1
+Name: MOVE_d1_from_p1_to_d2
+pre: d1 d2 d1_on_p1
+add: p1 d1_on_d2
+delete: d2 d1_on_p1
+Name: MOVE_d1_from_d2_to_p1
+pre: d1 p1 d1_on_d2
+add: d2 d1_on_p1
+delete: p1 d1_on_d2
+Name: MOVE_d1_from_p2_to_p0
+pre: d1 p0 d1_on_p2
+add: p2 d1_on_p0
+delete: p0 d1_on_p2
+Name: MOVE_d1_from_p2_to_p1
+pre: d1 p1 d1_on_p2
+add: p2 d1_on_p1
+delete: p1 d1_on_p2
+Name: MOVE_d1_from_p2_to_d2
+pre: d1 d2 d1_on_p2
+add: p2 d1_on_d2
+delete: d2 d1_on_p2
+Name: MOVE_d1_from_d2_to_p2
+pre: d1 p2 d1_on_d2
+add: d2 d1_on_p2
+delete: p2 d1_on_d2
+Name: MOVE_d2_from_p0_to_p1
+pre: d2 p1 d2_on_p0
+add: p0 d2_on_p1
+delete: p1 d2_on_p0
+Name: MOVE_d2_from_p0_to_p2
+pre: d2 p2 d2_on_p0
+add: p0 d2_on_p2
+delete: p2 d2_on_p0
+Name: MOVE_d2_from_p1_to_p0
+pre: d2 p0 d2_on_p1
+add: p1 d2_on_p0
+delete: p0 d2_on_p1
+Name: MOVE_d2_from_p1_to_p2
+pre: d2 p2 d2_on_p1
+add: p1 d2_on_p2
+delete: p2 d2_on_p1
+Name: MOVE_d2_from_p2_to_p0
+pre: d2 p0 d2_on_p2
+add: p2 d2_on_p0
+delete: p0 d2_on_p2
+Name: MOVE_d2_from_p2_to_p1
+pre: d2 p1 d2_on_p2
+add: p2 d2_on_p1
+delete: p1 d2_on_p2

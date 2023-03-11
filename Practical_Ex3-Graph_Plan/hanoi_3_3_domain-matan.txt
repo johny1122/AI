@@ -1,0 +1,155 @@
+Propositions:
+d_0 d_0p_0 d_0p_1 d_0p_2 d_1 d_1p_0 d_1p_1 d_1p_2 d_2 d_2p_0 d_2p_1 d_2p_2 d_0d_1 d_0d_2 d_1d_2 p_0 p_1 p_2 
+Actions:
+Name: d_0d_1d_2
+pre: d_0 d_2 d_0d_1  
+add: d_1 d_0d_2
+delete: d_2 d_0d_1
+Name: d_0d_2d_1
+pre: d_0 d_1 d_0d_2  
+add: d_2 d_0d_1
+delete: d_1 d_0d_2
+Name: d_0p_0p_1
+pre: d_0 p_1 d_0p_0  
+add: p_0 d_0p_1
+delete: p_1 d_0p_0
+Name: d_0p_0p_2
+pre: d_0 p_2 d_0p_0  
+add: p_0 d_0p_2
+delete: p_2 d_0p_0
+Name: d_0p_1p_0
+pre: d_0 p_0 d_0p_1  
+add: p_1 d_0p_0
+delete: p_0 d_0p_1
+Name: d_0p_1p_2
+pre: d_0 p_2 d_0p_1  
+add: p_1 d_0p_2
+delete: p_2 d_0p_1
+Name: d_0p_2p_0
+pre: d_0 p_0 d_0p_2  
+add: p_2 d_0p_0
+delete: p_0 d_0p_2
+Name: d_0p_2p_1
+pre: d_0 p_1 d_0p_2  
+add: p_2 d_0p_1
+delete: p_1 d_0p_2
+Name: d_0p_0d_1
+pre: d_0 d_1 d_0p_0  
+add: p_0 d_0d_1
+delete: d_1 d_0p_0
+Name: d_0d_1p_0
+pre: d_0 p_0 d_0d_1  
+add: d_1 d_0p_0
+delete: p_0 d_0d_1
+Name: d_0p_0d_2
+pre: d_0 d_2 d_0p_0  
+add: p_0 d_0d_2
+delete: d_2 d_0p_0
+Name: d_0d_2p_0
+pre: d_0 p_0 d_0d_2  
+add: d_2 d_0p_0
+delete: p_0 d_0d_2
+Name: d_0p_1d_1
+pre: d_0 d_1 d_0p_1  
+add: p_1 d_0d_1
+delete: d_1 d_0p_1
+Name: d_0d_1p_1
+pre: d_0 p_1 d_0d_1  
+add: d_1 d_0p_1
+delete: p_1 d_0d_1
+Name: d_0p_1d_2
+pre: d_0 d_2 d_0p_1  
+add: p_1 d_0d_2
+delete: d_2 d_0p_1
+Name: d_0d_2p_1
+pre: d_0 p_1 d_0d_2  
+add: d_2 d_0p_1
+delete: p_1 d_0d_2
+Name: d_0p_2d_1
+pre: d_0 d_1 d_0p_2  
+add: p_2 d_0d_1
+delete: d_1 d_0p_2
+Name: d_0d_1p_2
+pre: d_0 p_2 d_0d_1  
+add: d_1 d_0p_2
+delete: p_2 d_0d_1
+Name: d_0p_2d_2
+pre: d_0 d_2 d_0p_2  
+add: p_2 d_0d_2
+delete: d_2 d_0p_2
+Name: d_0d_2p_2
+pre: d_0 p_2 d_0d_2  
+add: d_2 d_0p_2
+delete: p_2 d_0d_2
+Name: d_1p_0p_1
+pre: d_1 p_1 d_1p_0  
+add: p_0 d_1p_1
+delete: p_1 d_1p_0
+Name: d_1p_0p_2
+pre: d_1 p_2 d_1p_0  
+add: p_0 d_1p_2
+delete: p_2 d_1p_0
+Name: d_1p_1p_0
+pre: d_1 p_0 d_1p_1  
+add: p_1 d_1p_0
+delete: p_0 d_1p_1
+Name: d_1p_1p_2
+pre: d_1 p_2 d_1p_1  
+add: p_1 d_1p_2
+delete: p_2 d_1p_1
+Name: d_1p_2p_0
+pre: d_1 p_0 d_1p_2  
+add: p_2 d_1p_0
+delete: p_0 d_1p_2
+Name: d_1p_2p_1
+pre: d_1 p_1 d_1p_2  
+add: p_2 d_1p_1
+delete: p_1 d_1p_2
+Name: d_1p_0d_2
+pre: d_1 d_2 d_1p_0  
+add: p_0 d_1d_2
+delete: d_2 d_1p_0
+Name: d_1d_2p_0
+pre: d_1 p_0 d_1d_2  
+add: d_2 d_1p_0
+delete: p_0 d_1d_2
+Name: d_1p_1d_2
+pre: d_1 d_2 d_1p_1  
+add: p_1 d_1d_2
+delete: d_2 d_1p_1
+Name: d_1d_2p_1
+pre: d_1 p_1 d_1d_2  
+add: d_2 d_1p_1
+delete: p_1 d_1d_2
+Name: d_1p_2d_2
+pre: d_1 d_2 d_1p_2  
+add: p_2 d_1d_2
+delete: d_2 d_1p_2
+Name: d_1d_2p_2
+pre: d_1 p_2 d_1d_2  
+add: d_2 d_1p_2
+delete: p_2 d_1d_2
+Name: d_2p_0p_1
+pre: d_2 p_1 d_2p_0  
+add: p_0 d_2p_1
+delete: p_1 d_2p_0
+Name: d_2p_0p_2
+pre: d_2 p_2 d_2p_0  
+add: p_0 d_2p_2
+delete: p_2 d_2p_0
+Name: d_2p_1p_0
+pre: d_2 p_0 d_2p_1  
+add: p_1 d_2p_0
+delete: p_0 d_2p_1
+Name: d_2p_1p_2
+pre: d_2 p_2 d_2p_1  
+add: p_1 d_2p_2
+delete: p_2 d_2p_1
+Name: d_2p_2p_0
+pre: d_2 p_0 d_2p_2  
+add: p_2 d_2p_0
+delete: p_0 d_2p_2
+Name: d_2p_2p_1
+pre: d_2 p_1 d_2p_2  
+add: p_2 d_2p_1
+delete: p_1 d_2p_2

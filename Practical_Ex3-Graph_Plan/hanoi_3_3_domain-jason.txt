@@ -1,0 +1,243 @@
+Propositions:
+ available-p_0 available-p_1 available-p_2 available-d_0 available-d_1 available-d_2 on-d_0-d_1 on-d_0-d_2 on-d_0-p_0 on-d_0-p_1 on-d_0-p_2 on-d_1-d_0 on-d_1-d_2 on-d_1-p_0 on-d_1-p_1 on-d_1-p_2 on-d_2-d_0 on-d_2-d_1 on-d_2-p_0 on-d_2-p_1 on-d_2-p_2 smaller-d_0-d_1 smaller-d_0-d_2 smaller-d_0-p_0 smaller-d_0-p_1 smaller-d_0-p_2 smaller-d_1-d_0 smaller-d_1-d_2 smaller-d_1-p_0 smaller-d_1-p_1 smaller-d_1-p_2 smaller-d_2-d_0 smaller-d_2-d_1 smaller-d_2-p_0 smaller-d_2-p_1 smaller-d_2-p_2
+Actions:
+Name: move-d_0-d_1-d_2
+pre: on-d_0-d_1 available-d_0 available-d_2 smaller-d_0-d_2
+add: on-d_0-d_2 available-d_1
+del: on-d_0-d_1 available-d_2
+Name: move-d_0-d_1-p_0
+pre: on-d_0-d_1 available-d_0 available-p_0 smaller-d_0-p_0
+add: on-d_0-p_0 available-d_1
+del: on-d_0-d_1 available-p_0
+Name: move-d_0-d_1-p_1
+pre: on-d_0-d_1 available-d_0 available-p_1 smaller-d_0-p_1
+add: on-d_0-p_1 available-d_1
+del: on-d_0-d_1 available-p_1
+Name: move-d_0-d_1-p_2
+pre: on-d_0-d_1 available-d_0 available-p_2 smaller-d_0-p_2
+add: on-d_0-p_2 available-d_1
+del: on-d_0-d_1 available-p_2
+Name: move-d_0-d_2-d_1
+pre: on-d_0-d_2 available-d_0 available-d_1 smaller-d_0-d_1
+add: on-d_0-d_1 available-d_2
+del: on-d_0-d_2 available-d_1
+Name: move-d_0-d_2-p_0
+pre: on-d_0-d_2 available-d_0 available-p_0 smaller-d_0-p_0
+add: on-d_0-p_0 available-d_2
+del: on-d_0-d_2 available-p_0
+Name: move-d_0-d_2-p_1
+pre: on-d_0-d_2 available-d_0 available-p_1 smaller-d_0-p_1
+add: on-d_0-p_1 available-d_2
+del: on-d_0-d_2 available-p_1
+Name: move-d_0-d_2-p_2
+pre: on-d_0-d_2 available-d_0 available-p_2 smaller-d_0-p_2
+add: on-d_0-p_2 available-d_2
+del: on-d_0-d_2 available-p_2
+Name: move-d_0-p_0-d_1
+pre: on-d_0-p_0 available-d_0 available-d_1 smaller-d_0-d_1
+add: on-d_0-d_1 available-p_0
+del: on-d_0-p_0 available-d_1
+Name: move-d_0-p_0-d_2
+pre: on-d_0-p_0 available-d_0 available-d_2 smaller-d_0-d_2
+add: on-d_0-d_2 available-p_0
+del: on-d_0-p_0 available-d_2
+Name: move-d_0-p_0-p_1
+pre: on-d_0-p_0 available-d_0 available-p_1 smaller-d_0-p_1
+add: on-d_0-p_1 available-p_0
+del: on-d_0-p_0 available-p_1
+Name: move-d_0-p_0-p_2
+pre: on-d_0-p_0 available-d_0 available-p_2 smaller-d_0-p_2
+add: on-d_0-p_2 available-p_0
+del: on-d_0-p_0 available-p_2
+Name: move-d_0-p_1-d_1
+pre: on-d_0-p_1 available-d_0 available-d_1 smaller-d_0-d_1
+add: on-d_0-d_1 available-p_1
+del: on-d_0-p_1 available-d_1
+Name: move-d_0-p_1-d_2
+pre: on-d_0-p_1 available-d_0 available-d_2 smaller-d_0-d_2
+add: on-d_0-d_2 available-p_1
+del: on-d_0-p_1 available-d_2
+Name: move-d_0-p_1-p_0
+pre: on-d_0-p_1 available-d_0 available-p_0 smaller-d_0-p_0
+add: on-d_0-p_0 available-p_1
+del: on-d_0-p_1 available-p_0
+Name: move-d_0-p_1-p_2
+pre: on-d_0-p_1 available-d_0 available-p_2 smaller-d_0-p_2
+add: on-d_0-p_2 available-p_1
+del: on-d_0-p_1 available-p_2
+Name: move-d_0-p_2-d_1
+pre: on-d_0-p_2 available-d_0 available-d_1 smaller-d_0-d_1
+add: on-d_0-d_1 available-p_2
+del: on-d_0-p_2 available-d_1
+Name: move-d_0-p_2-d_2
+pre: on-d_0-p_2 available-d_0 available-d_2 smaller-d_0-d_2
+add: on-d_0-d_2 available-p_2
+del: on-d_0-p_2 available-d_2
+Name: move-d_0-p_2-p_0
+pre: on-d_0-p_2 available-d_0 available-p_0 smaller-d_0-p_0
+add: on-d_0-p_0 available-p_2
+del: on-d_0-p_2 available-p_0
+Name: move-d_0-p_2-p_1
+pre: on-d_0-p_2 available-d_0 available-p_1 smaller-d_0-p_1
+add: on-d_0-p_1 available-p_2
+del: on-d_0-p_2 available-p_1
+Name: move-d_1-d_0-d_2
+pre: on-d_1-d_0 available-d_1 available-d_2 smaller-d_1-d_2
+add: on-d_1-d_2 available-d_0
+del: on-d_1-d_0 available-d_2
+Name: move-d_1-d_0-p_0
+pre: on-d_1-d_0 available-d_1 available-p_0 smaller-d_1-p_0
+add: on-d_1-p_0 available-d_0
+del: on-d_1-d_0 available-p_0
+Name: move-d_1-d_0-p_1
+pre: on-d_1-d_0 available-d_1 available-p_1 smaller-d_1-p_1
+add: on-d_1-p_1 available-d_0
+del: on-d_1-d_0 available-p_1
+Name: move-d_1-d_0-p_2
+pre: on-d_1-d_0 available-d_1 available-p_2 smaller-d_1-p_2
+add: on-d_1-p_2 available-d_0
+del: on-d_1-d_0 available-p_2
+Name: move-d_1-d_2-d_0
+pre: on-d_1-d_2 available-d_1 available-d_0 smaller-d_1-d_0
+add: on-d_1-d_0 available-d_2
+del: on-d_1-d_2 available-d_0
+Name: move-d_1-d_2-p_0
+pre: on-d_1-d_2 available-d_1 available-p_0 smaller-d_1-p_0
+add: on-d_1-p_0 available-d_2
+del: on-d_1-d_2 available-p_0
+Name: move-d_1-d_2-p_1
+pre: on-d_1-d_2 available-d_1 available-p_1 smaller-d_1-p_1
+add: on-d_1-p_1 available-d_2
+del: on-d_1-d_2 available-p_1
+Name: move-d_1-d_2-p_2
+pre: on-d_1-d_2 available-d_1 available-p_2 smaller-d_1-p_2
+add: on-d_1-p_2 available-d_2
+del: on-d_1-d_2 available-p_2
+Name: move-d_1-p_0-d_0
+pre: on-d_1-p_0 available-d_1 available-d_0 smaller-d_1-d_0
+add: on-d_1-d_0 available-p_0
+del: on-d_1-p_0 available-d_0
+Name: move-d_1-p_0-d_2
+pre: on-d_1-p_0 available-d_1 available-d_2 smaller-d_1-d_2
+add: on-d_1-d_2 available-p_0
+del: on-d_1-p_0 available-d_2
+Name: move-d_1-p_0-p_1
+pre: on-d_1-p_0 available-d_1 available-p_1 smaller-d_1-p_1
+add: on-d_1-p_1 available-p_0
+del: on-d_1-p_0 available-p_1
+Name: move-d_1-p_0-p_2
+pre: on-d_1-p_0 available-d_1 available-p_2 smaller-d_1-p_2
+add: on-d_1-p_2 available-p_0
+del: on-d_1-p_0 available-p_2
+Name: move-d_1-p_1-d_0
+pre: on-d_1-p_1 available-d_1 available-d_0 smaller-d_1-d_0
+add: on-d_1-d_0 available-p_1
+del: on-d_1-p_1 available-d_0
+Name: move-d_1-p_1-d_2
+pre: on-d_1-p_1 available-d_1 available-d_2 smaller-d_1-d_2
+add: on-d_1-d_2 available-p_1
+del: on-d_1-p_1 available-d_2
+Name: move-d_1-p_1-p_0
+pre: on-d_1-p_1 available-d_1 available-p_0 smaller-d_1-p_0
+add: on-d_1-p_0 available-p_1
+del: on-d_1-p_1 available-p_0
+Name: move-d_1-p_1-p_2
+pre: on-d_1-p_1 available-d_1 available-p_2 smaller-d_1-p_2
+add: on-d_1-p_2 available-p_1
+del: on-d_1-p_1 available-p_2
+Name: move-d_1-p_2-d_0
+pre: on-d_1-p_2 available-d_1 available-d_0 smaller-d_1-d_0
+add: on-d_1-d_0 available-p_2
+del: on-d_1-p_2 available-d_0
+Name: move-d_1-p_2-d_2
+pre: on-d_1-p_2 available-d_1 available-d_2 smaller-d_1-d_2
+add: on-d_1-d_2 available-p_2
+del: on-d_1-p_2 available-d_2
+Name: move-d_1-p_2-p_0
+pre: on-d_1-p_2 available-d_1 available-p_0 smaller-d_1-p_0
+add: on-d_1-p_0 available-p_2
+del: on-d_1-p_2 available-p_0
+Name: move-d_1-p_2-p_1
+pre: on-d_1-p_2 available-d_1 available-p_1 smaller-d_1-p_1
+add: on-d_1-p_1 available-p_2
+del: on-d_1-p_2 available-p_1
+Name: move-d_2-d_0-d_1
+pre: on-d_2-d_0 available-d_2 available-d_1 smaller-d_2-d_1
+add: on-d_2-d_1 available-d_0
+del: on-d_2-d_0 available-d_1
+Name: move-d_2-d_0-p_0
+pre: on-d_2-d_0 available-d_2 available-p_0 smaller-d_2-p_0
+add: on-d_2-p_0 available-d_0
+del: on-d_2-d_0 available-p_0
+Name: move-d_2-d_0-p_1
+pre: on-d_2-d_0 available-d_2 available-p_1 smaller-d_2-p_1
+add: on-d_2-p_1 available-d_0
+del: on-d_2-d_0 available-p_1
+Name: move-d_2-d_0-p_2
+pre: on-d_2-d_0 available-d_2 available-p_2 smaller-d_2-p_2
+add: on-d_2-p_2 available-d_0
+del: on-d_2-d_0 available-p_2
+Name: move-d_2-d_1-d_0
+pre: on-d_2-d_1 available-d_2 available-d_0 smaller-d_2-d_0
+add: on-d_2-d_0 available-d_1
+del: on-d_2-d_1 available-d_0
+Name: move-d_2-d_1-p_0
+pre: on-d_2-d_1 available-d_2 available-p_0 smaller-d_2-p_0
+add: on-d_2-p_0 available-d_1
+del: on-d_2-d_1 available-p_0
+Name: move-d_2-d_1-p_1
+pre: on-d_2-d_1 available-d_2 available-p_1 smaller-d_2-p_1
+add: on-d_2-p_1 available-d_1
+del: on-d_2-d_1 available-p_1
+Name: move-d_2-d_1-p_2
+pre: on-d_2-d_1 available-d_2 available-p_2 smaller-d_2-p_2
+add: on-d_2-p_2 available-d_1
+del: on-d_2-d_1 available-p_2
+Name: move-d_2-p_0-d_0
+pre: on-d_2-p_0 available-d_2 available-d_0 smaller-d_2-d_0
+add: on-d_2-d_0 available-p_0
+del: on-d_2-p_0 available-d_0
+Name: move-d_2-p_0-d_1
+pre: on-d_2-p_0 available-d_2 available-d_1 smaller-d_2-d_1
+add: on-d_2-d_1 available-p_0
+del: on-d_2-p_0 available-d_1
+Name: move-d_2-p_0-p_1
+pre: on-d_2-p_0 available-d_2 available-p_1 smaller-d_2-p_1
+add: on-d_2-p_1 available-p_0
+del: on-d_2-p_0 available-p_1
+Name: move-d_2-p_0-p_2
+pre: on-d_2-p_0 available-d_2 available-p_2 smaller-d_2-p_2
+add: on-d_2-p_2 available-p_0
+del: on-d_2-p_0 available-p_2
+Name: move-d_2-p_1-d_0
+pre: on-d_2-p_1 available-d_2 available-d_0 smaller-d_2-d_0
+add: on-d_2-d_0 available-p_1
+del: on-d_2-p_1 available-d_0
+Name: move-d_2-p_1-d_1
+pre: on-d_2-p_1 available-d_2 available-d_1 smaller-d_2-d_1
+add: on-d_2-d_1 available-p_1
+del: on-d_2-p_1 available-d_1
+Name: move-d_2-p_1-p_0
+pre: on-d_2-p_1 available-d_2 available-p_0 smaller-d_2-p_0
+add: on-d_2-p_0 available-p_1
+del: on-d_2-p_1 available-p_0
+Name: move-d_2-p_1-p_2
+pre: on-d_2-p_1 available-d_2 available-p_2 smaller-d_2-p_2
+add: on-d_2-p_2 available-p_1
+del: on-d_2-p_1 available-p_2
+Name: move-d_2-p_2-d_0
+pre: on-d_2-p_2 available-d_2 available-d_0 smaller-d_2-d_0
+add: on-d_2-d_0 available-p_2
+del: on-d_2-p_2 available-d_0
+Name: move-d_2-p_2-d_1
+pre: on-d_2-p_2 available-d_2 available-d_1 smaller-d_2-d_1
+add: on-d_2-d_1 available-p_2
+del: on-d_2-p_2 available-d_1
+Name: move-d_2-p_2-p_0
+pre: on-d_2-p_2 available-d_2 available-p_0 smaller-d_2-p_0
+add: on-d_2-p_0 available-p_2
+del: on-d_2-p_2 available-p_0
+Name: move-d_2-p_2-p_1
+pre: on-d_2-p_2 available-d_2 available-p_1 smaller-d_2-p_1
+add: on-d_2-p_1 available-p_2
+del: on-d_2-p_2 available-p_1
